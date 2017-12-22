@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             ArrayList<String> permissions = new ArrayList<String>();
             /***
+             *
              * 定位权限为必须权限，用户如果禁止，则每次进入都会申请
              */
         //这四个权限需要运行时申请

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="#cc4e5a6b">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/a01"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/image_border"
+        />
+
+        <TextView
+            android:id="@+id/id_info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="老米家泡馍"
+            android:layout_below="@+id/image"
+            android:layout_alignLeft="@+id/image"
+            android:textColor="#fff5eb"
+            android:layout_marginLeft="12dp"/>
+        <TextView
+            android:id="@+id/id_info_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距离200米"
+            android:textColor="#fff5eb"
+            android:layout_below="@+id/id_info_name"
+            android:layout_alignLeft="@+id/id_info_name"/>
+
+
+
+    <TextView
+        android:id="@+id/id_info_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="789"
+        android:layout_marginRight="12dp"
+        android:layout_below="@+id/image"
+        android:textColor="#fff5eb"
+        android:padding="2dp"
+        android:layout_alignRight="@+id/image"
+        />
+    <ImageView
+        android:id="@+id/image_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map_zan"
+        android:layout_below="@+id/image"
+        android:layout_toLeftOf="@+id/id_info_zan"
+        android:clickable="true" />
+
+</RelativeLayout>
